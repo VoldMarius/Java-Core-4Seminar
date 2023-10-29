@@ -1,8 +1,6 @@
 import Classes.Customer;
 import Classes.Order;
 import Classes.Product;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 
 
 public class Main {
