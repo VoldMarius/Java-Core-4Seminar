@@ -35,7 +35,7 @@ public class Main {
         try {
             orders[0] = makePurchase(customers[0], products[0], 2);
             orders[1] = makePurchase(customers[1], products[1], 3);
-            orders[2] = makePurchase(customers[2], products[2], 10); // выбросит исключение
+            orders[2] = makePurchase(customers[2], products[2], -5); // выбросит исключение
         } catch (Exception e) {
             System.out.println("Ошибка: " + e.getMessage());
         }
