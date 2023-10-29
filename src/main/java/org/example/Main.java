@@ -2,7 +2,7 @@ package org.example;
 
 import lombok.Data;
 
-import lombok.ToString;
+
 import module.WrongLoginException;
 import module.WrongPasswordException;
 
@@ -26,7 +26,7 @@ public class Main {
 
 
         try{
-            boolean result = check ( login, password, confirm_password);
+             check ( login, password, confirm_password);
             System.out.println("Login and password are valid.");
         }catch(  WrongLoginException e){
             System.out.println("Wrong login: " + e.getMessage());
